@@ -8,9 +8,19 @@ class SideBar extends React.Component{
     render(){
         return (
         <>
-        <div>
+        <div class= "button">
             <Button inverted color='blue'>
-                Conflicts
+                Conflict Scenarios
+            </Button>
+            <p>
+            </p>
+            <Button inverted color='blue'>
+                Income
+            </Button>
+            <p>
+            </p>
+            <Button inverted color='blue'>
+                Losses
             </Button>
         </div>
        
