@@ -7,7 +7,7 @@ class HomePage extends React.Component{
     render(){
         return (
         <>
-        <div>
+        <div class="logo-header">
             <img width="18%" alt="" src={require('./images/BBLogo.png')}/>
         </div>
        

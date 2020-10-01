@@ -14,11 +14,17 @@ html, body {
     }
     
 .div1 { grid-area: 1 / 1 / 2 / 6; }
-.div2 { grid-area: 2 / 1 / 6 / 6; }
-.div3 { grid-area: 2 / 2 / 6 / 4; }
+.div2 { 
+    grid-area: 2 / 1 / 6 / 2;
+    background-color: #295d92;
+}
+.div3 { 
+    grid-area: 2 / 2 / 6 / 6; 
+    background-color: #ffd007;
+}
 
 /* <---------- HOME PAGE --------> */ 
-#top {
-    color: red;
+.logo-header {
+    background-color: #e87b39;
 }
 
