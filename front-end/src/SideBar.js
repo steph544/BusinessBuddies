@@ -22,6 +22,11 @@ class SideBar extends React.Component{
             <Button inverted color='blue'>
                 Losses
             </Button>
+            <p>
+            </p>
+            <Button inverted color='blue'>
+                Examples
+            </Button>
         </div>
        
         </>
