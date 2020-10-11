@@ -7,8 +7,8 @@ class MainWindow extends React.Component{
     render(){
         return (
         <>
-        <div>
-           Main Window 
+        <div class="center">
+            <img width="75%" alt="" src={require('./images/main.jpeg')}/>
         </div>
        
         </>
