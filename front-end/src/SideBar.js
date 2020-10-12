@@ -3,19 +3,25 @@ import { Button } from 'semantic-ui-react'
 import "./styles.css"
 
 class SideBar extends React.Component{
-    state={}
+    state={
+        status: null 
+    }
+
+    hardQuestions = () => {
+        
+    }
 
     render(){
         return (
         <>
         <div class= "button">
-            <Button inverted color='blue'>
-                Conflict Scenarios
+            <Button inverted color='blue' onClick={this.hardQuestions}>
+                Hard Questions
             </Button>
             <p>
             </p>
             <Button inverted color='blue'>
-                Income
+                Difficult People
             </Button>
             <p>
             </p>
@@ -28,7 +34,7 @@ class SideBar extends React.Component{
                 Examples 
             </Button>
             <p>
-                
+
             </p>
             <Button inverted color='blue'>
                 Responses
