@@ -7,8 +7,8 @@ class SideBar extends React.Component{
         status: null 
     }
 
-    hardQuestions = (hardQuestion) => {
-        this.props.mainWindow(hardQuestion)
+    hardQuestions = (hardQuestions) => {
+        this.props.hardQuestions(hardQuestions)
     }
 
     render(){
