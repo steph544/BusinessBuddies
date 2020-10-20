@@ -1,6 +1,7 @@
 import React from 'react'
 import "./styles.css"
 import HardQuestions from "./HardQuestions.js"
+import DifficultPeople from "./DifficultPeople.js"
 
 class MainWindow extends React.Component{
     state={
@@ -10,8 +11,8 @@ class MainWindow extends React.Component{
         switch(param){
         case "hardQuestions":
           return <HardQuestions/>
-        // case 'progress':
-        //     return <Progress currentUser={this.state.currentUser}/>
+        case 'difficultPeople':
+            return <DifficultPeople/>
         // case 'levels':
         //     return <Levels currentUser={this.state.currentUser}/>
         // case 'prizes':
