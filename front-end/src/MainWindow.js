@@ -23,7 +23,13 @@ class MainWindow extends React.Component{
       
     render(){  
     if (this.props.view === null) {
-        return ""
+        return (
+             <div className="center">
+                <img width="100%" src={require("./images/main.jpeg")}/>
+            </div>
+        )
+       
+        
     } else {
         return (
             <>   
