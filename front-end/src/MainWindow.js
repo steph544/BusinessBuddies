@@ -3,6 +3,8 @@ import "./styles.css"
 import HardQuestions from "./HardQuestions.js"
 import DifficultPeople from "./DifficultPeople.js"
 import Losses from "./Losses.js"
+import Examples from "./Examples.js"
+import Responses from "./Responses.js"
 
 class MainWindow extends React.Component{
     state={
@@ -16,6 +18,10 @@ class MainWindow extends React.Component{
             return <DifficultPeople/>
         case 'losses':
             return <Losses/>
+        case 'examples':
+            return <Examples/>
+        case 'responses':
+            return <Responses/>    
         // case 'prizes':
         //     return <Prizes currentUser={this.state.currentUser}/>
         default: 

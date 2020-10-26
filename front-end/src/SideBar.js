@@ -19,6 +19,14 @@ class SideBar extends React.Component{
         this.props.hardQuestions("losses")
     }
 
+    responses = () => {
+        this.props.hardQuestions("responses")
+    }
+
+    examples = () => {
+        this.props.hardQuestions("examples")
+    }
+
     render(){
         return (
         <>
@@ -38,13 +46,13 @@ class SideBar extends React.Component{
             </Button>
             <p>
             </p>
-            <Button inverted color='blue' onClick={this.hardQuestions}>
+            <Button inverted color='blue' onClick={this.examples}>
                 Examples 
             </Button>
             <p>
 
             </p>
-            <Button inverted color='blue'>
+            <Button inverted color='blue' onClick={this.responses}>
                 Responses
             </Button>
         </div>
