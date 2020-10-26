@@ -19,16 +19,35 @@ class HardQuestions extends React.Component{
                     <Card.Content>
                     <Card.Header>Question 1</Card.Header>
                         <Card.Description>
-                        There is a customer that is complaining that your product is not what they expected it to be. What do you do?
+                            Your business is booming and you can hardly keep up. Do you raise your prices?
                         </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
                         <div className='ui two buttons'>
                         <Button basic color='green'>
-                            REFUND
+                            YES
                         </Button>
                         <Button basic color='red'>
-                            KEEP MONEY
+                            NO
+                        </Button>
+                        </div>
+                    </Card.Content>
+                    </Card>
+
+                    <Card>
+                    <Card.Content>
+                    <Card.Header>Question 2</Card.Header>
+                        <Card.Description>
+                        Your customer would like a discount. What do you do?
+                        </Card.Description>
+                    </Card.Content>
+                    <Card.Content extra>
+                        <div className='ui two buttons'>
+                        <Button basic color='green'>
+                            Say <br/> "NO WAY"
+                        </Button>
+                        <Button basic color='red'>
+                            Say "WHY?"
                         </Button>
                         </div>
                     </Card.Content>
