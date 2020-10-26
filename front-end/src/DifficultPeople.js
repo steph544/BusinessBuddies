@@ -53,6 +53,24 @@ class DifficultPeople extends React.Component{
                     </Card.Content>
                     </Card>
                 
+                    <Card>
+                    <Card.Content>
+                    <Card.Header>Person 3</Card.Header>
+                        <Card.Description>
+                            This customer is being very rude and you are unable to calm them down. What do you do next?
+                        </Card.Description>
+                    </Card.Content>
+                    <Card.Content extra>
+                        <div className='ui two buttons'>
+                        <Button basic color='green'>
+                            Let them speak their mind.
+                        </Button>
+                        <Button basic color='red'>
+                            Walk away and tell them you do not want to do business with them.
+                        </Button>
+                        </div>
+                    </Card.Content>
+                    </Card>
                 </Card.Group>
             </>  
         )
