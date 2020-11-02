@@ -52,6 +52,25 @@ class HardQuestions extends React.Component{
                         </div>
                     </Card.Content>
                     </Card>
+
+                    <Card>
+                    <Card.Content>
+                    <Card.Header>Question 3</Card.Header>
+                        <Card.Description>
+                        Your customer is not pleased with the timing of service. They feel that you delivered the product way too slowly. 
+                        </Card.Description>
+                    </Card.Content>
+                    <Card.Content extra>
+                        <div className='ui two buttons'>
+                        <Button basic color='green'>
+                            Discuss your shipping policy again
+                        </Button>
+                        <Button basic color='red'>
+                            Refund the money
+                        </Button>
+                        </div>
+                    </Card.Content>
+                    </Card>
                 
                 </Card.Group>
 
