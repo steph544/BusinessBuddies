@@ -13,7 +13,7 @@ class Responses extends React.Component{
 
         return (
             <>   
-                <h1> Responses</h1>
+                This is the area where you would see your responses and how you scored.
             </>  
         )
         
