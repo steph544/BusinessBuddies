@@ -13,7 +13,7 @@ class Losses extends React.Component{
 
         return (
             <>   
-                <h1> Losses</h1>
+                <h1> Because of your business actions, you now are encountering losses. How will you handle it?</h1>
             </>  
         )
         
