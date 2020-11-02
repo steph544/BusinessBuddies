@@ -71,6 +71,25 @@ class DifficultPeople extends React.Component{
                         </div>
                     </Card.Content>
                     </Card>
+
+                    <Card>
+                    <Card.Content>
+                    <Card.Header>Person 4</Card.Header>
+                        <Card.Description>
+                            This customer wants you to do extra service for them for no additional cost.
+                        </Card.Description>
+                    </Card.Content>
+                    <Card.Content extra>
+                        <div className='ui two buttons'>
+                        <Button basic color='green'>
+                            Stand firm and tell them the extra fee.
+                        </Button>
+                        <Button basic color='red'>
+                            Just do the extra work for free.
+                        </Button>
+                        </div>
+                    </Card.Content>
+                    </Card>
                 </Card.Group>
             </>  
         )
