@@ -13,7 +13,7 @@ class Examples extends React.Component{
 
         return (
             <>   
-                <h1> Examples</h1>
+                This is where you would see examples of difficult situations and how to properly resolve them.
             </>  
         )
         
