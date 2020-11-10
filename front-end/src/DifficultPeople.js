@@ -90,6 +90,25 @@ class DifficultPeople extends React.Component{
                         </div>
                     </Card.Content>
                     </Card>
+
+                    <Card>
+                    <Card.Content>
+                    <Card.Header>Person 5</Card.Header>
+                        <Card.Description>
+                            This customer is getting very nit-picky with you and wants you to spend extra time fulfilling their request.
+                        </Card.Description>
+                    </Card.Content>
+                    <Card.Content extra>
+                        <div className='ui two buttons'>
+                        <Button basic color='green'>
+                            Weight out future long term business with this person to see if it's worth the time.
+                        </Button>
+                        <Button basic color='red'>
+                            Decide they are too much trouble and move on.
+                        </Button>
+                        </div>
+                    </Card.Content>
+                    </Card>
                 </Card.Group>
             </>  
         )
