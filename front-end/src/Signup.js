@@ -20,7 +20,7 @@ class Signup extends Component{
     render(){
         return(
             <div class="parent">
-                <div class="div1"><HomePage/> </div>
+                <div class="div1"><HomePage home={this.mainWindow}/> </div>
                 <div class="div2"> <SideBar hardQuestions={this.mainWindow}/></div>
                 <div class="div3"> <MainWindow view={this.state.view}/></div>
             </div>
